@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <span class="lead">Soccer Standings</span>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-sm-2 col-xs-3">
+        <strong>Team</strong>
+      </div>
+      <div class="col-sm-10 col-xs-9">
+        <strong>Standing</strong>
+      </div>      
+  </div>
+  <div class="row" *ngFor="let standing of (standings | sort: 'stat')">
+    <div class="col-sm-2 col-xs-3">
+      {{ standing.team }}
+    </div>
+    <div class="col-sm-10 col-xs-9">
+        {{ standing.stat }}
+    </div>
+  </div>

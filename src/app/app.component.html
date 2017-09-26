@@ -1,0 +1,35 @@
+<div><div class="navbar navbar-default navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button
+        type="button"
+        class="navbar-toggle hamburger hamburger--collapse"
+        [ngClass]="{'is-active': isMenuCollapsed}"
+        (click)="toggleMenu()"
+        data-toggle="collapse"
+        data-target="#page-navbar"
+      >
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <a href="/" class="navbar-brand hidden-xs">
+        <img
+        class="logo-small"
+        src="images/page_logo.png"
+      />        
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="page-navbar">
+      <ul id="bsmenu" class="nav navbar-nav">
+        <li href="" [routerLink]="['/standings']">Standings</li>
+        <li href="" [routerLink]="['/playerstats']">Player stats</li>
+        <li href="" [routerLink]="['/highlights']">Hightlights</li>
+      </ul>
+    </div>
+  </div>
+</div> 
+
+<router-outlet></router-outlet>
+</div>

@@ -1,0 +1,22 @@
+[
+    { "id": 1, "team": "Chelsea", "stat": 2},
+    { "id": 2, "team": "Manchester United", "stat": 4},
+    { "id": 3, "team": "Manchester City", "stat": 1},
+    { "id": 4, "team": "Liverpool", "stat": 3},
+    { "id": 5, "team": "Arsenal", "stat": 6},
+    { "id": 6, "team": "Tottenham", "stat": 5},
+    { "id": 7, "team": "West Ham", "stat": 8},
+    { "id": 8, "team": "Stoke City", "stat": 7},
+    { "id": 9, "team": "Swansea City", "stat": 11},
+    { "id": 10, "team": "Newcastle", "stat": 10},
+    { "id": 11, "team": "Everton", "stat": 12},
+    { "id": 12, "team": "Leicester City", "stat": 9},
+    { "id": 13, "team": "Watford", "stat": 13},
+    { "id": 14, "team": "Huddersfield", "stat": 16},
+    { "id": 15, "team": "West Brom", "stat": 14},
+    { "id": 16, "team": "Brighton", "stat": 15},
+    { "id": 17, "team": "Crystal Palace", "stat": 18},
+    { "id": 18, "team": "Bournemouth", "stat": 17},
+    { "id": 19, "team": "Southampton", "stat": 20},
+    { "id": 20, "team": "Burnley FC", "stat": 19}                                  
+]

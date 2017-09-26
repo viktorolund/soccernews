@@ -1,0 +1,19 @@
+<div class="container">
+  <video width="480" controls soccernewsHighlights (vtime)="timeInVideo($event)"
+    poster="/videos/ChelseaManCity.gif" >
+
+    <source
+      src="/videos/ChelseaManCityHighlights.mp4"
+      type="video/mp4">
+
+    Your browser doesn't support HTML5 video tag.
+  </video>
+
+  <div *ngIf="isVideoStarted">
+    <div class="row" *ngFor="let image of displayImage">
+      <div class="col-xs-12">
+        <img [src]="image.src" alt="" width="480">
+      </div>
+    </div>
+  </div>
+</div>
