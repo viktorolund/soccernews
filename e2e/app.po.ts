@@ -6,6 +6,6 @@ export class AppPage {
   }
 
   getParagraphText() {
-    return element(by.css('soccernews-root h1')).getText();
+    return element(by.css('soccernews-root soccernews-standings .lead')).getText();
   }
 }
